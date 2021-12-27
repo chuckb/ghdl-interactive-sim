@@ -39,6 +39,7 @@ end architecture rtl;
 - [GNU Make] (build-essential package on *nix)
 
 ## Running
+### *nix and Mac OS
 - Get Python dependencies first...
 ```bash
 pip install -r requirements.txt
@@ -47,6 +48,9 @@ pip install -r requirements.txt
 ```bash
 make
 ```
+
+### Windows
+Sorry, but I need to create a docker image and instructions...
 
 ## Credits
 Many thanks to the [GHDL VPI virtual board] project for the inspiration and the images (which I shamelessly borrowed given how artistically challenged I am).

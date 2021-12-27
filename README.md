@@ -41,7 +41,7 @@ end architecture rtl;
 ## Running
 - Get Python dependencies first...
 ```bash
-install -r requirements.txt
+pip install -r requirements.txt
 ```
 - Then in the test directory...
 ```bash
